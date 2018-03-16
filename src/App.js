@@ -93,7 +93,7 @@ class App extends Component {
     var qstrcmp = "?" + qstr;
     if (qstrcmp.localeCompare(this.props.location.search) !== 0) {
       this.props.history.push({
-        pathname: "/project1/search",
+        pathname: "/EventBeast/search",
         search: qstrcmp,
       });
     }
