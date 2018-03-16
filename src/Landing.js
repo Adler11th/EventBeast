@@ -27,7 +27,7 @@ export default class Landing extends Component {
       searchError: "",
       redirect: {
         yes: false,
-        pathname: "/project1/search",
+        pathname: "/EventBeast/search",
         search: "",
       },
     };

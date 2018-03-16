@@ -33,7 +33,7 @@ export default class Login extends Component{
             <div>
                 {'access_token' in this.hash ? <h1>Login successful</h1> : <h1>Login failed</h1>}
                 <h2>Redirecting in {this.state.time} seconds</h2>
-                {this.state.redirect && <Redirect to={'/project1/search'} />}
+                {this.state.redirect && <Redirect to={'/EventBeast/search'} />}
             </div>
         )
     }

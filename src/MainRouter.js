@@ -15,9 +15,9 @@ export default class MainRouter extends Component {
         return(
         <Router>
             <div>
-                <Route exact path='/project1' component={Landing} />
-                <Route path='/project1/search' component={App} />
-                <Route path='/project1/login' component={Login}/>
+                <Route exact path='/EventBeast' component={Landing} />
+                <Route path='/EventBeast/search' component={App} />
+                <Route path='/EventBeast/login' component={Login}/>
             </div>
         </Router>
         )
