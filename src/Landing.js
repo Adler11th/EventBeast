@@ -50,7 +50,7 @@ export default class Landing extends Component {
         this.setState({
           redirect: {
             yes: true,
-            pathname: "/project1/search",
+            pathname: "/EventBeast/search",
             search: qstr,
           },
         });
